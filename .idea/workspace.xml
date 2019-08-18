@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf95a96-e6de-4ba9-b91f-14fb94b880e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base/request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/data_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dependent_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/get_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/case_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/json_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/run_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/commonUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/get_appSecret_MD5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/get_appkey_MD5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/operation_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/operation_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/send_email.py" afterDir="false" />
-    </list>
+    <list default="true" id="7bf95a96-e6de-4ba9-b91f-14fb94b880e7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/run_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+            <state relative-caret-position="528">
+              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -204,6 +184,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -298,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566112952555</updated>
-      <workItem from="1566112953693" duration="1591000" />
+      <workItem from="1566112953693" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1591000" />
+    <option name="totallyTimeSpent" value="1950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="830" y="198" width="1691" height="1098" extended-state="0" />
@@ -316,7 +297,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4996968" visible="true" weight="0.32902583" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4996968" weight="0.32902583" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5003032" side_tool="true" weight="0.32902583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -415,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state relative-caret-position="528">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
         </state>
       </provider>
     </entry>
