@@ -20,7 +20,7 @@ class OperetionJson:
 
     #读取json文件
     def read_data(self):
-        with open("../dataconfig/login.json") as fp:
+        with open("../dataconfig/json_data.json") as fp:
             data = json.load(fp)
             return data
 

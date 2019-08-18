@@ -58,8 +58,10 @@ class HttpClient:
             response = self.send_post(request_url,request_params,request_header)
         else:
             response = self.send_get(request_url,request_params,request_header)
+        dict_response = json.loads(response)
+        return json.dumps(dict_response, ensure_ascii=False, sort_keys=True, indent=2)
         # return json.dumps(response,ensure_ascii=False,sort_keys=True,indent=2)
-        return response
+        # return response
 
 
 if __name__ == '__main__':

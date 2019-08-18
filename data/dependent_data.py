@@ -5,8 +5,8 @@
  Encoding：utf-8
  Time：2019-08-11 15:02
 """
-from util.operation_excel import OperationExcel
-from base.runmethod import RunMethod
+from utils.operation_excel import OperationExcel
+from base.request import HttpClient
 from data.get_data import GerData
 from jsonpath_rw import jsonpath,parse
 import json
@@ -25,13 +25,13 @@ class DependentData:
 
     #执行依赖测试，获取结果
     def run_dependent(self):
-        run_method = RunMethod()
+        httpclient = HttpClient()
         row_num = self.opera_excel.get_row_num(self.case_id)
         request_data = self.data.get_data_for_json(row_num)
         #header = self.data.is_header(row_num)
         method = self.data.get_request_method(row_num)
         url = self.data.get_request_url(row_num)
-        result = run_method.run_main(method,url,request_data)
+        result = httpclient.request(method,url,request_data)
         return json.loads(result)
 
     #根据依赖的key去获取执行依赖测试case的响应，然后返回

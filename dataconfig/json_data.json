@@ -1,8 +1,27 @@
 {
-  "create_channel": {
-          "partner": "4a82946d15b2465581dfc5218097c209",
-          "timestamp": "",
-          "sign":""
+  "login1": {
+        "device_type": "1",
+        "username": "13501331103",
+        "passwrod": "zhang@888"
+  },
+  "login2": {
+        "device_type": "2",
+        "username": "13501331103",
+        "passwrod": "zhang@888"
+  },
+    "login3": {
+        "device_type": "3",
+        "username": "13501331103",
+        "passwrod": "zhang@888"
+  },
+    "login4": {
+        "device_type": "4",
+        "username": "13501331103",
+        "passwrod": "zhang@888"
+  },
+    "login5": {
+        "device_type": "5",
+        "username": "13501331103",
+        "passwrod": "zhang@888"
   }
-
 }

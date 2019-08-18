@@ -10,7 +10,7 @@ import os
 import xlrd
 from xlutils.copy import copy
 
-# data = xlrd.open_workbook('../dataconfig/interface.xlsx')
+# data = xlrd.open_workbook('../dataconfig/data.xlsx')
 # tables = data.sheets()[0]
 # print(tables.nrows)
 # # print(tables.cell_value(2,3))
@@ -23,7 +23,7 @@ class OperationExcel:
             self.sheet_id = sheet_id
         else:
             self.file_path = os.path.abspath(os.path.dirname(__file__))
-            self.file_name = os.path.join(self.file_path, '../dataconfig', 'case_data.xlsx')
+            self.file_name = os.path.join(self.file_path, '../dataconfig', 'data.xlsx')
 
             self.sheet_id = 0
         self.data = self.get_data()

@@ -17,7 +17,7 @@ from utils.send_email import SendEmail
 class RunTest:
 
     def __init__(self):
-        self.run_method = HttpClient()
+        self.httpclient = HttpClient()
         self.data = GerData()
         self.com_util = CommonUtil()
         self.send_mai = SendEmail()
@@ -25,7 +25,7 @@ class RunTest:
     #程序执行的主入口
     def go_on_run(self):
         print("开始执行。。。")
-        result = None
+        response = None
         pass_count = []
         fail_count = []
 
@@ -33,6 +33,7 @@ class RunTest:
         print(rows_conut)
 
         for i in range(1,rows_conut):
+
             is_run = self.data.get_is_run(i)
             #判断是否运行
             if is_run:
@@ -42,8 +43,6 @@ class RunTest:
                 expect_data = self.data.get_expect_data(i)
                 request_header = self.data.is_header(i)
                 depend_case = self.data.is_depend(i)
-                #参数顺序不能错
-                #result = self.run_method.run_main(method,url,request_data,header)
                 #判断是否有依赖
                 if depend_case != None:
                     self.depend_data = DependentData(depend_case)
@@ -54,24 +53,22 @@ class RunTest:
                     #更新depend_response_data值
                     request_data[depend_key] = depend_response_data
                 # 参数顺序不能错
-                result = self.run_method.run_main(request_method, request_url, request_data, request_header)
-                print("返回结果",result)
-                if self.com_util.is_contain(expect_data,result):
+                response = self.httpclient.request(request_method, request_url, request_data, request_header)
+                print("response：",response)
+                print('-----------------------------------------------------------')
+                if self.com_util.is_contain(expect_data,response):
                     # print("测试通过：",'result中包含预期值'+expect)
                     self.data.write_result(i,'pass')
                     pass_count.append(i)
                 else:
                     # print("测试失败：",'result中不包含预期值'+expect)
-                    self.data.write_result(i,result)
+                    self.data.write_result(i,response)
                     fail_count.append(i)
         # print('case执行成功数量:',len(pass_count))
         # print('case执行失败数量:',len(fail_count))
         #self.send_mai.send_main(pass_count,fail_count)
 
-# fp = open("../dataconfig/login.json")
-# data = json.load(fp)
-# print(data)
-#
+
 if __name__ == '__main__':
     run = RunTest()
     run.go_on_run()
