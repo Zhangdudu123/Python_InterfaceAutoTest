@@ -1,10 +1,8 @@
-"""
- ProjectName：Duobei001
- ModuleName：get_data
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-10 14:11
-"""
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: get_data.py
+# @Time: 2019-08-18 15:23
 
 from utils.operation_excel import OperationExcel
 from data import data_config

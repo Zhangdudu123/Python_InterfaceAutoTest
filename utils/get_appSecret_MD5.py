@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# @ProjectName：Duobei001
-# @Author: DaXiangCai
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
 # @File: get_appSecret_MD5.py
-# @Time: 2019-08-17 14:39
+# @Time: 2019-08-18 15:23
 
 import hashlib
 from collections import OrderedDict

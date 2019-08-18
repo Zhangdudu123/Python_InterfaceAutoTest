@@ -1,10 +1,8 @@
-"""
- ProjectName：Duobei001
- ModuleName：operation_json
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-08 21:32
-"""
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: operation_json.py
+# @Time: 2019-08-18 15:23
 
 import json
 

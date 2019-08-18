@@ -1,10 +1,8 @@
-"""
- ProjectName：Duobei001
- ModuleName：data_config
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-10 13:08
-"""
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: data_config.py
+# @Time: 2019-08-18 15:23
 
 class global_var:
 

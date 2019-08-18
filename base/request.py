@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# @ProjectName：Interface
-# @Author: DaXiangCai
-# @File: run_method.py
-# @Time: 2019-08-17 15:51
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: request.py
+# @Time: 2019-08-18 15:23
 
 import requests
 import json

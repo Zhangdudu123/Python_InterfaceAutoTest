@@ -1,11 +1,9 @@
-"""
- ProjectName：Duobei001
- ModuleName：commonUtil
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-10 17:39
-"""
-#coding:utf-8
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: commonUtil.py
+# @Time: 2019-08-18 15:23
+
 class CommonUtil:
     def is_contain(self,str_one,str_two):
         '''

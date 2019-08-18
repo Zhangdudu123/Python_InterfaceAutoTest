@@ -1,20 +1,17 @@
 # -*- coding: utf-8 -*-
-"""
- coding:UTF-8
- ProjectName：Duobei001
- ModuleName：run_test
- Author：DaXiangCai
- Time：2019-08-10 15:11
-"""
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: run_main.py
+# @Time: 2019-08-18 15:232019-08-10 15:11
 
 import sys
-sys.path.append("/Users/zhangwengao/PycharmProjects/Duobei001")
+sys.path.append("/Users/zhangwengao/workspace/duobei/python/Python_InterfaceAutoTest")
 from base.request import HttpClient
 from data.get_data import GerData
 from utils.commonUtil import CommonUtil
 from data.dependent_data import DependentData
 from utils.send_email import SendEmail
-class RunTest:
+class RunMain:
 
     def __init__(self):
         self.httpclient = HttpClient()
@@ -70,7 +67,7 @@ class RunTest:
 
 
 if __name__ == '__main__':
-    run = RunTest()
+    run = RunMain()
     run.go_on_run()
 
 

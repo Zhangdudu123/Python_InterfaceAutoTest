@@ -1,10 +1,9 @@
-"""
- ProjectName：Duobei001
- ModuleName：send_email
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-11 20:05
-"""
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: send_email.py
+# @Time: 2019-08-18 15:23
+
 import smtplib
 from email.mime.text import MIMEText
 

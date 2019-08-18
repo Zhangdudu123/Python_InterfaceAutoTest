@@ -1,10 +1,8 @@
-"""
- ProjectName：Duobei001
- ModuleName：operation_excel
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-06 20:06
-"""
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: operation_excel.py
+# @Time: 2019-08-18 15:23
 import os
 
 import xlrd

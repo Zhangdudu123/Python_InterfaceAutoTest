@@ -1,10 +1,9 @@
-"""
- ProjectName：Duobei001
- ModuleName：depend_data
- Author：DaXiangCai
- Encoding：utf-8
- Time：2019-08-11 15:02
-"""
+# -*- coding: utf-8 -*-
+# @ProjectName：Python_InterfaceAutoTest
+# @Author: dudu.zhang
+# @File: dependent_data.py
+# @Time: 2019-08-18 15:23
+
 from utils.operation_excel import OperationExcel
 from base.request import HttpClient
 from data.get_data import GerData
